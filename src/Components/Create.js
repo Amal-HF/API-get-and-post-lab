@@ -16,9 +16,9 @@ export default function Create() {
             lName,
             email,
             pass,
-        }).then((res)=>{
-            console.log(res.data)
-        })
+        })/*.then((res)=>{
+        //     console.log(res.data)
+        // })*/
     }
   return (
     <div className='login-form'>
